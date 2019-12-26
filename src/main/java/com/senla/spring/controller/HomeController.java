@@ -1,16 +1,15 @@
-package com.journaldev.spring.controller;
+package com.senla.spring.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import com.senla.spring.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import com.journaldev.spring.model.User;
 
 @Controller
 public class HomeController {
